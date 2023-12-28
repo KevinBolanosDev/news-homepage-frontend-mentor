@@ -1,11 +1,11 @@
-import React from "react";
+import gaming from "../../assets/images/image-gaming-growth.jpg"
 
 function ArticleThree() {
   return (
     <div className="flex gap-5">
       <img
         className="w-21 h-28"
-        src="src\assets\images\image-gaming-growth.jpg"
+        src={gaming}
       />
       <div className="flex flex-col justify-around">
       <h2 className="text-2xl text-neutral-grayishBlue font-bold">03</h2>

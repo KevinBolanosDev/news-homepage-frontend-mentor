@@ -1,11 +1,11 @@
-import React from "react";
+import laptops from "../../assets/images/image-top-laptops.jpg"
 
 function ArticleTwo() {
   return (
     <div className="flex gap-5">
       <img
         className="w-21 h-28"
-        src="src\assets\images\image-top-laptops.jpg"
+        src={laptops}
       />
       <div className="flex flex-col justify-around">
         <h2 className="text-2xl text-neutral-grayishBlue font-bold">02</h2>

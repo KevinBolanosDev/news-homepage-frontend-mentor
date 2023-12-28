@@ -1,10 +1,10 @@
-import React from "react";
+import retro from "../../assets/images/image-retro-pcs.jpg"
 
 function ArticleOne() {
   return (
     <div className="flex gap-5">
       <img 
-      className="w-21 h-28" src="src\assets\images\image-retro-pcs.jpg" 
+      className="w-21 h-28" src={retro}
     />
       <div className="flex flex-col justify-between">
         <h2 className="text-2xl text-neutral-grayishBlue font-bold">01</h2>
