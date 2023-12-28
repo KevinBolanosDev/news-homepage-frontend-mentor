@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    margin: 0em 10em 0em 10em;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__main {
+    width: 680px;
+}
+.img__main {
+    height: 270px;
+    width: 690px;
+}
+
+/* @media only screen and (min-device-width: 375px ) {
+    .img__main {
+        width: 40px auto;
+    }
+} */
