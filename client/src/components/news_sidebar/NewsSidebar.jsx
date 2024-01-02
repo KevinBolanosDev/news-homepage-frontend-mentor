@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsSidebar() {
   return (
-    <div className='bg-neutral-veryDarkBlue w-[330px] px-6 pt-6 border-2 border-black'>
+    <div className='bg-neutral-veryDarkBlue sm:w-[330px] px-6 pt-6 border-2 border-black'>
         <h2 className='text-2xl md:text-4xl font-bold text-primary-softOrange mb-4 md:mb-8'>New</h2>
         <ul className='text-neutral-offWhite my-4'>
             <li className='border-b-2 border-neutral-darkGrayishBlue mb-4 md:mb-6'>

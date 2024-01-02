@@ -4,14 +4,14 @@ import ContentSection from "./ContentSection";
 
 function MainSection() {
   return (
-    <div className="container__main container items-center flex flex-col justify-between">
+    <div className="container__main container flex flex-col justify-between">
       <img
         className="img__main sm:pe-4 hidden sm:block"
         src={desktop}
         alt="Web 3.0 Desktop"
       />
       <img 
-        className="max-w-full h-auto block sm:hidden w-[320px]"
+        className="max-w-full  h-auto block sm:hidden w-[]"
         src={mobile}
         alt="Web 3.0 Mobile"  
       />
