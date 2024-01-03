@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-    <div className='container sm:p-6'>
+    <div>
       <Header />
-      <div className='flex flex-wrap mx-4 sm:ms-[10em] sm:w-[1005px] sm:flex-nowrap sm:gap-3'>
+      <div className='flex flex-wrap mx-4 sm:mx-6 sm:px-2 sm:w-[940px] sm:flex-nowrap sm:gap-3 lg:ms-[3em] xl:w-[1005px] xl:ms-[10em]'>
       <MainSection />
       <NewsSidebar />
       </div>

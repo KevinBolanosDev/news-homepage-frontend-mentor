@@ -4,7 +4,7 @@ import ContentSection from "./ContentSection";
 
 function MainSection() {
   return (
-    <div className="container__main container flex flex-col justify-between">
+    <div className="container__main flex flex-col justify-between sm:w-[630px]">
       <img
         className="img__main sm:pe-4 hidden sm:block"
         src={desktop}

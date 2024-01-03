@@ -11,7 +11,7 @@ function NavBar() {
 
   return (
     <>
-    <div className='sm:flex'>
+    <div>
     <button className={`me-4 sm:hidden ${isMenuOpen ? 'hidden' : 'block'}`} onClick={toggleMenu}>
         <img src={menuOpen} alt="Open Menu" />
       </button>
