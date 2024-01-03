@@ -13,7 +13,7 @@ function ContentSection() {
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
         </p>
-        <button className="text-center text-xs tracking-[0.4em] text-neutral-offWhite bg-primary-softRed w-40 h-10 mb-12 sm:mb-0">
+        <button className="text-center text-xs tracking-[0.4em] text-neutral-offWhite bg-primary-softRed hover:bg-neutral-veryDarkBlue transition ease-in-out delay-150 hover:-translate-y-2 w-40 h-10 mb-12 sm:mb-0">
           READ MORE
         </button>
       </article>

@@ -16,24 +16,24 @@ function NavBar() {
         <img src={menuOpen} alt="Open Menu" />
       </button>
         <ul className={`fixed top-0 right-0 h-full bg-black bg-opacity-50 w-full text-lg sm:space-y-0 sm:relative sm:flex sm:flex-row ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <div className="bg-white text-neutral-veryDarkBlue font-medium h-full ps-6 py-6 space-y-5 ml-auto w-[260px] sm:w-auto sm:flex sm:gap-8 sm:text-neutral-darkGrayishBlue">
+        <div className="bg-white text-neutral-veryDarkBlue font-medium h-full ps-6 py-6 space-y-5 ml-auto w-[260px] sm:py-0 sm:space-y-0 sm:w-auto sm:flex sm:gap-8 sm:text-neutral-darkGrayishBlue">
         <button className={`ml-auto mb-16 me-4 sm:hidden ${isMenuOpen ? 'block' : 'hidden'}`} onClick={toggleMenu}>
         <img src={menuClose} alt="Close Menu" />
         </button>
             <li>
-              <a href='#'>Home</a>
+              <a className="hover:text-primary-softRed" href='#' onClick={toggleMenu}>Home</a>
             </li>
             <li>
-              <a href='#'>New</a>
+              <a className="hover:text-primary-softRed" href='#' onClick={toggleMenu}>New</a>
             </li>
             <li>
-              <a href='#'>popular</a>
+              <a className="hover:text-primary-softRed" href='#' onClick={toggleMenu}>popular</a>
             </li>
             <li>
-              <a href='#'>Trending</a>
+              <a className="hover:text-primary-softRed" href='#' onClick={toggleMenu}>Trending</a>
             </li>
             <li>
-              <a href='#'>Categories</a>
+              <a className="hover:text-primary-softRed" href='#' onClick={toggleMenu}>Categories</a>
             </li>
         </div>
         </ul>
